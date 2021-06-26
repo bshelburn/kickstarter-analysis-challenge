@@ -15,7 +15,7 @@ Both the Parent Category and newly converted Years columns were used filters for
 
 The Parent Category filter was then set on Theater which included the subcategories of Plays, Musicals, and Spaces.   Our analysis included all years split by month which required no modification of the filter.   Results were the organized in descending order which placed Successful in the left most results column followed by Failed and Canceled.
 
-Once the data set was checked for accuracy against the original data set the table was selected and a line Chart with Markers was inserted into the same worksheet and given the title of "Theater Outcomes Based on Launch Date" (inserted above).
+Once the data set was checked for accuracy against the original data set the table was selected and a line Chart with Markers was inserted into the same worksheet and given the title of "Theater Outcomes Based on Launch Date" (inserted above) showing the results of the projects by month.
 
 ### Analysis of Outcomes Based on Goals
 ![Outcomes_vs_Goals](https://user-images.githubusercontent.com/84201082/123518280-2ed18c00-d673-11eb-8fe1-9d1e1c69aa04.png)
