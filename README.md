@@ -1,1 +1,3 @@
-# Kickstarter Campaign Funding Success Analysis
+# Kickstarter Campaign Funding Analysis
+---
+## Overview
