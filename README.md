@@ -9,7 +9,7 @@ This analysis was the result of Louise coming close to her Kickstarter goal for 
 ## Analysis & Challenges
 ### Analysis of Outcomes Based on Launch Date
 ![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/84201082/123518244-077abf00-d673-11eb-8c36-0579e6c78bab.png)
-Utilizing the Kickstarter data we first converted the Date Created column to show only the year of campaign launchg by using the = YEAR() function: =YEAR([@[Date Created Conversion]]).   A Pivot Table was placed in the newly created Theater Outcomes by Launch Date sheet. 
+Utilizing the Kickstarter data we first converted the Date Created column to show only the year of campaign launchg by using the = YEAR() function: Ex. =YEAR([@[Date Created Conversion]]).   A Pivot Table was placed in the newly created Theater Outcomes by Launch Date sheet. 
 
 Both the Parent Category and newly converted Years columns were used filters for the data set.   The Outcomes column was placed into the Columns portion of the pivot table, the Date Created was designated as the table Rows, and Outcomes was again placed in the Values with a Count assignment.   The Outcomes columns were limimted to only Successful, Failed, and Canceled which ommited the Live category.   
 
@@ -19,5 +19,11 @@ Once the data set was checked for accuracy against the original data set the tab
 
 ### Analysis of Outcomes Based on Goals
 ![Outcomes_vs_Goals](https://user-images.githubusercontent.com/84201082/123518280-2ed18c00-d673-11eb-8fe1-9d1e1c69aa04.png)
+In the same Workbook and new worksheet was created and called Outcomes Based on Goals.   Metrics to be measured were count of Number Successful, Number Failed, Number Canceled, Total Projects, Percentage Successful, Percentage Failed, Percentage Canceled.   These were split into 12 specific fund buckets shown in the Goal column of the worksheet and X axis of the chart above.
 
-### Challenges and Difficulties Encountered 
+To total the number for each category and funding bucket multiple =COUNTIFS() functions were used depending on both the outcome of the initiative and which funding bucket was being analyzed: Ex. =COUNTIFS(Kickstarter!$F:$F,"Successful",Kickstarter!$O:$O,"plays", Kickstarter!$D:$D, "<1000"), =COUNTIFS(Kickstarter!$F:$F,"canceled",Kickstarter!$O:$O,"plays", Kickstarter!$D:$D, ">=30000", Kickstarter!$D:$D, "<=34999"), =COUNTIFS(Kickstarter!$F:$F,"failed",Kickstarter!$O:$O,"plays", Kickstarter!$D:$D, ">=50000").
+
+The =SUM() function was used for the totals column which included the 3 categories of Successful, Failed, and Canceled:
+
+### Challenges and Difficulties Encountered
+
