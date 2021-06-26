@@ -31,3 +31,5 @@ The funding buckets were selected along with the percentage results of the sprea
 Difficulties faced were verifying the data points given such a large data set.   In order to make sure the code written was returning the corrct values a manual spot check was neccesary.   A big cahllenge was the discovery to include the constrict of plays within the =COUNTIFS formulas since the Outcomes Based on Goals was specific to that subcategory.   Results were not matching no matter how the formula was written before disovered. Rereading the scope of the Module several times finally revealed the key to success.
 
 In addition, the use of using the ">=" instead of ">" or "<" outside of the first and last funding bucket category led to numbers being slightly off as some numbers fell firectly on 1000 or 50000, placing them in the wrong bucket.
+
+## Results
