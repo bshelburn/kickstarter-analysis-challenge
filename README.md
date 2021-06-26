@@ -8,3 +8,6 @@ This analysis was the result of Louise coming close to her Kickstarter goal for 
 
 ## Analysis & Challenges
 ### Analysis of Outcomes Based on Launch Date
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/84201082/123518244-077abf00-d673-11eb-8c36-0579e6c78bab.png)
+
+### Analysis of Outcomes Based on Goals
