@@ -33,3 +33,4 @@ Difficulties faced were verifying the data points given such a large data set.  
 In addition, the use of using the ">=" instead of ">" or "<" outside of the first and last funding bucket category led to numbers being slightly off as some numbers fell firectly on 1000 or 50000, placing them in the wrong bucket.
 
 ## Results
+The Outcomes Based on Launch Date has shown that the greatest success for funding a Theater endevour is in the month of May and overall a little over 61% of Kickstarter Theater campaings succeed throughout the year.   Limitations of this data set include data being restricted to only the years of 2009 through 2017 and initiativesn that are funded not using Kickstarted such as GoFundMe.   A deeper dive would be recommended on more recent data of the success of Kickstarter campaigns in addition to the loation in which a project is being undertaken.   Basing a project abroad insted of in the US could yeild much different results.
